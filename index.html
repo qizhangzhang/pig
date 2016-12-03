@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/swiper-3.4.0.min.css">
+</head>
+<body>
+	<div id="header">养猪圈</div>
+	<!-- 日期 -->
+	<div id="timer" class="swiper-container">
+		<div class="swiper-wrapper">
+            <div class="swiper-slide curr">11月20日</div>
+            <div class="swiper-slide">11月21日</div>
+            <div class="swiper-slide">11月22日</div>
+            <div class="swiper-slide">11月23日</div>
+            <div class="swiper-slide">11月24日</div>
+            <div class="swiper-slide">11月25日</div>
+            <div class="swiper-slide">11月26日</div>
+        </div>
+	</div>
+	<!-- 倒计时 -->
+	<div id="countDown">
+
+		<div>活动结束:</div>
+		<p class="timer">
+			<span id="hour"></span>&nbsp;时
+			<span id="min"></span>&nbsp;分
+			<span id="sec"></span>&nbsp;秒
+		</p>
+	</div>
+	<div id="wrapper">
+		<div id="scroller">
+			<!-- 下拉框 -->
+			<div id="downTag">下拉</div>
+			<!-- 内容 -->
+			<div id="container">
+			</div>
+
+			<div id="upTag">上拉</div>
+		</div>
+	</div>
+	<div id="footer"></div>
+</body>
+	<script type="text/javascript" src="js/zepto.js"></script>
+	<script type="text/javascript" src="js/iscroll-probe.js"></script>
+	<script type="text/javascript" src="js/swiper-3.4.0.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</html>
+
+

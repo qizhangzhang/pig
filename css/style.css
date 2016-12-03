@@ -1,0 +1,217 @@
+*{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+html{
+	-ms-touch-action:none;
+}
+
+body,ul,li{
+	padding:0;
+	margin: 0;
+	border:0;
+}
+body{
+	font-size:12px;
+	font-family: ubuntu,helvetica,arial;
+	overflow: hidden;
+}
+#header{
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	background:#cd235c;
+	padding: 0;
+	color:#eee;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+/*#footer{
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	left: 0;
+	width: 100px;
+	width: 45px;
+	background:#444;
+	padding: 0;
+	border-top:1px solid #444;
+}*/
+#timer{
+	position: absolute;
+	z-index: 2;
+	top: 45px;
+	left: 0;
+	height: 44px;
+	width: 100%;
+	line-height: 45px;
+	text-align: center;
+}
+.swiper-container{
+    width: 100%;
+    height: 44px;
+}
+.swiper-slide{
+	font-size: 12px;
+	text-align: center;
+}
+/*当前被点击的样式*/
+.curr{
+	border-bottom: 5px solid #66f;
+	color:#66f;
+}
+#countDown{
+	position: absolute;
+	z-index: 2;
+	top:89px;
+	left: 0;
+	height: 45px;
+	width: 100%;
+	background: #696969;
+	text-align: center;
+}
+#countDown div{
+	height: 15px;
+	margin:5px 0 5px 0;
+	font-size:16px;
+	font-weight:bold;
+}
+#countDown .timer{
+	margin: 0;
+	color:#f00;
+}
+#footer{
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 48px;
+	background: #444;
+	padding: 0;
+	border-top: 1px solid #000;
+	display: flex;
+}
+#footer a{
+	flex:1;
+	height: 100%;
+	box-sizing:border-box;
+	border:1px solid #ddd;
+	text-decoration: none;
+	line-height: 48px;
+	text-align: center;
+	font-size: 20px;
+	color:#fff;
+}
+
+#wrapper{
+	position: absolute;
+	z-index: 1;
+	top: 124px;
+	bottom: 48px;
+	left: 0;
+	width: 100%;
+	background: #ccc;
+	overflow: hidden;
+}
+/*下拉*/
+#downTag{
+	height: 40px;
+	width: 100%;
+	background-color: :#f3f3f3;
+	text-align: center;
+	line-height: 40px;
+}
+/*下拉*/
+#upTag{
+	height: 40px;
+	width: 100%;
+	background: #f3f3f3;
+	text-align: center;
+	line-height: 40px;
+	margin-bottom:-40px;
+}
+
+/**/
+#content{
+	position: absolute;
+	top: 45px;
+	left: 0;
+	bottom: 49px;
+	width: 100%;
+	background: red;
+}
+
+
+
+/*container*/
+#container{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+#container dl{
+	width: 100%;
+	height: 120px;
+	background: #fff;
+	margin: 10px 0 10px 0;
+}
+#container dl dt{
+	float: left;
+}
+#container dl dt img{
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	margin:10px;
+}
+#container dl dd{
+	float: left;
+	margin: 0;
+}
+#container dl dd h1{
+	font-size: 20px;
+	margin:10px 0;
+}
+#container dl dd p{
+	margin: 3px;
+}
+.price{
+	font-size: 12px;
+	width: 100%;
+}
+.price div{
+	float: left;
+	width: 30px;
+	height: 45px;
+}
+.price ul{
+	float: left;
+	list-style: none;
+}
+.price ul li{
+	width: 100%;
+}
+.price ul li span{
+	color:#696969;
+}
+#scroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 100%;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	text-size-adjust: none;
+}
